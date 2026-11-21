@@ -31,6 +31,63 @@
       ],
       "ast": [
         "aggregate/ast/2ec6dce317ab352462506c49bf1a1f0da917c352/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/2ec6dce317ab352462506c49bf1a1f0da917c352.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "jaq-core",
+          "ecosystem": "CARGO",
+          "version": "2.2",
+          "githubOrg": "01mf02",
+          "githubRepo": "jaq",
+          "githubUrl": "https://github.com/01mf02/jaq",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "jaq-json",
+          "ecosystem": "CARGO",
+          "version": "1.1",
+          "githubOrg": "01mf02",
+          "githubRepo": "jaq",
+          "githubUrl": "https://github.com/01mf02/jaq",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "jaq-std",
+          "ecosystem": "CARGO",
+          "version": "2.1",
+          "githubOrg": "01mf02",
+          "githubRepo": "jaq",
+          "githubUrl": "https://github.com/01mf02/jaq",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "serde_json",
+          "ecosystem": "CARGO",
+          "version": "1",
+          "githubOrg": "serde-rs",
+          "githubRepo": "json",
+          "githubUrl": "https://github.com/serde-rs/json",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "thiserror",
+          "ecosystem": "CARGO",
+          "version": "2",
+          "githubOrg": "dtolnay",
+          "githubRepo": "thiserror",
+          "githubUrl": "https://github.com/dtolnay/thiserror",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "serde",
+          "ecosystem": "CARGO",
+          "version": "1",
+          "githubOrg": "serde-rs",
+          "githubRepo": "serde",
+          "githubUrl": "https://github.com/serde-rs/serde",
+          "source": "build_file:Cargo.toml"
+        }
       ]
     }
   ],

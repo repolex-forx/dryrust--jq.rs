@@ -1,0 +1,17 @@
+[2026-11-21T22:48:08Z] === ENRICH ITERATION 1 START | repo=dryrust/jq.rs sha=2ec6dce3 ===
+[2026-11-21T22:48:08Z] [iter=1] PHASE START: enrich repo=dryrust/jq.rs sha=2ec6dce3 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/2ec6dce3-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/2ec6dce317ab352462506c49bf1a1f0da917c352.nq.gz
+[2026-11-21T22:48:20Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-11-21T22:48:20Z] [iter=1] AST store loaded triples=3740 load_secs=0 mem_mb=89 MB
+[2026-11-21T22:48:20Z] [iter=1] Step 2: Finding LSP targets mem_mb=89 MB
+[2026-11-21T22:48:20Z] [iter=1] LSP targets found call_sites=40 imports=3 extends=0 implements=0 secs=0
+[2026-11-21T22:48:20Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=90 MB
+[2026-11-21T22:48:20Z] [iter=1] Position index built positions=242 nodes_with_types=310 secs=0 mem_mb=90 MB
+[2026-11-21T22:48:20Z] [iter=1] Step 3: Starting LSP resolution mem_mb=90 MB already_completed_types=[] already_completed_files=0
+[2026-11-21T22:48:20Z] [iter=1] Resolving target type target_type=call_site count=40
+[2026-11-21T22:48:38Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=0.5 files_done=0 resolved=0 errors=0 current=src/jaq.rs
+[2026-11-21T22:48:46Z] [iter=1] Target type resolved target_type=call_site resolved=23 errors=0 secs=26 mem_mb=90 MB
+[2026-11-21T22:48:46Z] [iter=1] Resolving target type target_type=import_statement count=3
+[2026-11-21T22:48:51Z] [iter=1] Target type resolved target_type=import_statement resolved=3 errors=0 secs=5 mem_mb=90 MB
+[2026-11-21T22:48:56Z] [iter=1] Step 5: Writing final enrichment file triples=395
+[2026-11-21T22:48:56Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/2ec6dce317ab352462506c49bf1a1f0da917c352.nq.gz size_kb=4
+[2026-11-21T22:48:56Z] [iter=1] PHASE END: enrich elapsed_s=48 elapsed_min=0.8 total_triples=395
