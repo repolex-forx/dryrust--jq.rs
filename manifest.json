@@ -88,7 +88,9 @@
           "githubUrl": "https://github.com/serde-rs/serde",
           "source": "build_file:Cargo.toml"
         }
-      ]
+      ],
+      "repolex": "aggregate/repolex/2ec6dce317ab352462506c49bf1a1f0da917c352/chunk-001.nq.gz",
+      "dep": "dep/2ec6dce317ab352462506c49bf1a1f0da917c352.nq.gz"
     }
   ],
   "commit": "commit/commit.nq.gz",
