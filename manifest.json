@@ -1,0 +1,37 @@
+{
+  "manifest_version": "1.0",
+  "org": "dryrust",
+  "repo": "jq.rs",
+  "versions": [
+    {
+      "commit": "2ec6dce317ab352462506c49bf1a1f0da917c352",
+      "parsed_at": "2026-11-21T22:41:20.596734+00:00",
+      "tag": "0.1.0",
+      "filetree": "filetree/2ec6dce317ab352462506c49bf1a1f0da917c352.nq.gz",
+      "blobs": [
+        "blob/dc159d8eea284343e27a2104d04e80a5fc6a9444.nq.gz",
+        "blob/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391.nq.gz",
+        "blob/280fb8d04170d32ee9c5f1537fb204382a2602ff.nq.gz",
+        "blob/6e8bf73aa550d4c57f6f35830f1bcdc7a4a62f38.nq.gz",
+        "blob/13edb27f8341a15f7ef6805243c5be8572913129.nq.gz",
+        "blob/4bdda4de9c5eed7783f7c793afc13bed60e69317.nq.gz",
+        "blob/9ddb8d58be54229589e8dec061be04d75c0d5ee0.nq.gz",
+        "blob/cff36c01767c2affa293f2fb4be13944af68a888.nq.gz",
+        "blob/ffb0c488999e8111fa884d7b46f68e9a8624ecfc.nq.gz",
+        "blob/af9908b08f4b33c32a0080af73f53bc0fa0cdce4.nq.gz",
+        "blob/5f5cf896c81688e4360b37f1bcda92f7bc6f7423.nq.gz",
+        "blob/edd314752946c3923299dcbf94df1d8e4df52124.nq.gz",
+        "blob/775b37f2025b0b0c44365b5ed0671d9f24131855.nq.gz",
+        "blob/e3e57a8ce4ccbf74759a6df8fa4a3980ff1c9209.nq.gz",
+        "blob/75e3b65f99b29f48ab230e3eab3de8d0b7a9229f.nq.gz",
+        "blob/2408c2adeae567e4e36ca2c6a8258ed08f01cd4c.nq.gz",
+        "blob/e94d007030c7f349ab7a49bf213a046e494b7efe.nq.gz",
+        "blob/cf42f6893594e2f8be2b722de51123d65e4d61c4.nq.gz",
+        "blob/efb98088164f5786b17e83ed384971fc3c74f93c.nq.gz"
+      ]
+    }
+  ],
+  "commit": "commit/commit.nq.gz",
+  "branch": "branch/branch.nq.gz",
+  "tag": "tag/tag.nq.gz"
+}
